@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Dicee</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Refresh Me</h1>
+      <div class="flex-container">
+      <div class="dice">
+        <p>Player 1</p>
+        <img class="img1" src="./images/dice6.png" alt="" />
+      </div>
+      <div class="dice">
+        <p>Player 2</p>
+        <img class="img2" src="./images/dice6.png" alt="" />
+      </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="./index.js" charset="utf-8"></script>
+  </body>
+  
+  <button type="button" class="btn" id="playBtn" onClick="window.location.reload()">Roll Dice</button>
+
+  <footer>
+    <div>Made with ❤️️ by Alana &copy; 2023 Alana Barrett-Frew</div>
+  </footer>
+</html>
