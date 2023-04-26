@@ -23,13 +23,13 @@
 ## Description
 Dice game to decide which of 2 players wins
 
-Deployed Site:
+Deployed Site: https://alanasdicedecisionmaker.netlify.app/ 
 
 ## Usage
 You can use this application to solve any issue where a decision between two people needs to be made.
 
 ## Screenshots
-<!-- ![alt text](./src/) -->
+![alt text](./images/Dice-Screenshot.png)
 
 ## Contributing   
 *List of collaborators*
